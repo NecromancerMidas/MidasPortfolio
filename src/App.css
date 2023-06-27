@@ -1,0 +1,28 @@
+:root {
+  --PrimaryColor: #0a0a27;
+  --SecondaryColor: #231437;
+  --TetrinaryColor: #161a53;
+  --QuaternaryColor: yellow;
+  background-color: var(--PrimaryColor);
+  --CodeColor: rgb(216, 0, 118);
+  text-shadow: 3px 0px 0px rgba(0,0,0,1);
+  color:var(--StringColor);
+  --StringColor:rgb(0, 204, 255);
+}
+
+h1::before{
+content: "<h1>";
+color:var(--CodeColor)
+}
+h1::after{
+  content: "</h1>";
+  color: var(--CodeColor);
+}
+p::before{
+  content: "<p>";
+  color: var(--CodeColor);
+}
+p::after{
+  content: "</p>";
+  color: var(--CodeColor);
+}

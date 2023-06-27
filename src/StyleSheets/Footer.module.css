@@ -1,0 +1,45 @@
+/*footer {
+display:flex;
+    background-color: var(--SecondaryColor);
+    align-items: center;
+    justify-content: center;
+}*/
+.footerSticky {
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: var(--SecondaryColor);
+    align-items: center;
+    justify-content: center;
+    transition: bottom 0.3s ease-out,transform 0.5s ease-in;
+
+}
+.NonStickyFooter {
+
+        width: 100%;
+        position: fixed;
+        height:10vh;
+        bottom: 0vh;
+        left: 0;
+        display: flex;
+        background-color: var(--SecondaryColor);
+        align-items: center;
+        justify-content: center;
+        transform: translateY(100%);
+        transition: bottom 0.3s ease-out, transform 0.5s ease-in;
+}
+.RealFooter{
+    width: 100%;
+    z-index: 1;
+    height:10vh;
+    bottom: 0vh;
+    left: 0;
+    display: flex;
+    background-color: var(--SecondaryColor);
+    align-items: center;
+    justify-content: center;
+}
+

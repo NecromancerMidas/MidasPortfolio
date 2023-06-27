@@ -1,0 +1,36 @@
+section {
+    position: relative;
+    height: 80vh;
+    padding-top:6vh;
+    margin-bottom: 3vh;
+    width: 80%;
+    background-color:var(--PrimaryColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section::before, section::after {
+    content: "";
+    position: absolute;
+    left: 25%; 
+    bottom: 0;
+    width: 50%; 
+    height: 4px; /* Height of the "thickest" part of the line 
+    background: radial-gradient(ellipse at center, red 50%, transparent 50%);
+}
+*/
+.EndOfPageSVG {
+    width: 404px;
+    height: 6px;
+}
+
+.EndOfPageMarker {
+    fill: var(--TetrinaryColor);
+    stroke:var(--CodeColor);
+    stroke-width:0.5;
+}
+section p {
+font-size: larger;
+
+}

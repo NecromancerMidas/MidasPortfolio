@@ -1,0 +1,25 @@
+.Container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.ImageContainer img {
+    height: 285px;
+    width: 420px;
+}
+.ImageContainer{
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+width:100%;
+margin-top: 3vh;
+}
+.Container p {
+
+    font-size: larger;
+    margin-top: 6vh;
+    width: 60%;
+    text-align: center;
+
+}
