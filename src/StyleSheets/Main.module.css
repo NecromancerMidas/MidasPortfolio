@@ -2,8 +2,6 @@ main {
 
 background-color: var(--PrimaryColor);
 display:flex;
-justify-content: center;
-align-items: center;
-padding-top: 8vh;
 flex-direction: column;
+
 }

@@ -20,6 +20,10 @@ header {
 header span{
     color:var(--CodeColor)
 }
+header h1 {
+  text-shadow: -2px 0px 4px var(--CodeColor);
+}
+
 /*h1 {}*/
 .FlagContainer{
     background-color: var(--TetrinaryColor);

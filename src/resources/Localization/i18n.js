@@ -16,7 +16,7 @@ const resources = {
         title:'Welcome to my portfolio',
         mainContent: `Greetings, and welcome to my portfolio!
         I am Midas Petrych, and as the name implies, I strive to bring a golden touch to every project I undertake.
-        A great passion for coding and a deep lust for learning.`,
+        A great passion for coding and a deep desire for learning.`,
       },
 
       //`Greetings, and welcome to my portfolio!. 

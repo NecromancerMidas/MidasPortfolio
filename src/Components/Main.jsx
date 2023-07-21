@@ -2,6 +2,7 @@ import { Section } from "./Section"
 import { Introduction } from "./Introduction";
 import {AboutMe } from "./AboutMe";
 import { Portfolio } from "./Portfolio";
+import {SectionContentOdd} from "./SectionContentOdd";
 import styles from "../StyleSheets/Main.module.css";
 
 

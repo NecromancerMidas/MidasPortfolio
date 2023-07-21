@@ -30,20 +30,17 @@ margin-top: 3vh;
     height: 100%;
     width:100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
 border:solid black 2px;
-border-left: none;
-/*box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow),
-inset -2px 0px 11px 6px #2c1748;*/
-box-shadow: inset -2px 0px 11px 6px #2c1748;
-border-radius: 0 1.8rem 1.8rem 0;
+box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow),
+inset -2px 0px 11px 6px #2c1748;
+border-radius: 1.8rem 0rem 0rem 1.8rem;
 animation: glow linear 4.5s infinite;
 -webkit-animation: glow linear 4.5s infinite; /* Safari and Chrome */
 -moz-animation: glow linear 4.5s infinite; /* Firefox */
 -o-animation: glow linear 4.5s infinite; /* Opera */
 -ms-animation: glow linear 4.5s infinite; /* Microsoft Edge */
-
 }
 @keyframes glow {
     0% {
@@ -114,13 +111,13 @@ animation: glow linear 4.5s infinite;
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
 }
-
 .InnerContentContainer{
     display: flex;
     margin-top: 60px;
     height: 100%;
     width: 100%;
     flex-direction: column;
+    justify-content: flex-start !important;
     align-items: center;
     background: none;
 }
@@ -131,14 +128,15 @@ animation: glow linear 4.5s infinite;
     width: 35.5px !important;
     flex-grow: 0;
     flex-shrink: 0;
-    box-shadow: 4px 0px 15px 2px var(--PrimaryColor);
+    box-shadow: -4px 0px 15px 2px var(--PrimaryColor);
     overflow:hidden;
 }
 .DummyTerminalContainer p {
     margin:0;
     margin-left: 2px;
-    text-align: left;
     color: var(--CodeColor);
+    text-align: right;
+    justify-content: right;
 }
 .DummyTerminalContainer p::before{
     content:"";
@@ -146,16 +144,3 @@ animation: glow linear 4.5s infinite;
 .DummyTerminalContainer p::after{
     content:"";
 }
-/* border:solid black 4px;
-box-shadow: 0px 0px 0px 9px black;
-border-left: none;
-outline:solid green 4px; */
-/* .ContentContainer::before{
-    position: relative;
-    justify-self: end;
-    align-self: end;
-    content: "";
-    width: 90%;
-    background-color: black;
-    height: 2px;
-} */

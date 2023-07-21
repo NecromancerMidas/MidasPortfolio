@@ -146,16 +146,3 @@ animation: glow linear 4.5s infinite;
 .DummyTerminalContainer p::after{
     content:"";
 }
-/* border:solid black 4px;
-box-shadow: 0px 0px 0px 9px black;
-border-left: none;
-outline:solid green 4px; */
-/* .ContentContainer::before{
-    position: relative;
-    justify-self: end;
-    align-self: end;
-    content: "";
-    width: 90%;
-    background-color: black;
-    height: 2px;
-} */
