@@ -48,7 +48,7 @@ animation: glow linear 4.5s infinite;
     }
 
     50% {
-        box-shadow: 0px 10px 130px 20px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
+        box-shadow: 0px 10px 130px 20px #4b4b7a, inset -2px 0px 11px 6px #1a0d2c;
     }
 
     100% {
@@ -62,35 +62,33 @@ animation: glow linear 4.5s infinite;
     }
 
     50% {
-        box-shadow: 0px 10px 130px 20px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
+        box-shadow: 0px 10px 130px 20px #4b4b7a, inset -2px 0px 11px 6px #1a0d2c;
     }
 
     100% {
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
 }
-
 @-moz-keyframes glow {
     0% {
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
 
     50% {
-        box-shadow: 0px 10px 130px 20px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
+        box-shadow: 0px 10px 130px 20px #4b4b7a, inset -2px 0px 11px 6px #1a0d2c;
     }
 
     100% {
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
 }
-
 @-o-keyframes glow {
     0% {
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
 
     50% {
-        box-shadow: 0px 10px 130px 20px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
+        box-shadow: 0px 10px 130px 20px #4b4b7a, inset -2px 0px 11px 6px #1a0d2c;
     }
 
     100% {
@@ -98,7 +96,7 @@ animation: glow linear 4.5s infinite;
     }
 }
 
-@-ms-keyframes glow {
+/* @-ms-keyframes glow { OLD VERSION KEEP JUST INCASE OF REGRET
     0% {
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
@@ -110,7 +108,7 @@ animation: glow linear 4.5s infinite;
     100% {
         box-shadow: 0px 10px 130px 10px var(--OuterBoxShadow), inset -2px 0px 11px 6px #2c1748;
     }
-}
+} */
 .InnerContentContainer{
     display: flex;
     margin-top: 60px;
@@ -130,6 +128,7 @@ animation: glow linear 4.5s infinite;
     flex-shrink: 0;
     box-shadow: -4px 0px 15px 2px var(--PrimaryColor);
     overflow:hidden;
+    
 }
 .DummyTerminalContainer p {
     margin:0;

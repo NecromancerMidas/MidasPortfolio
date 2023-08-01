@@ -51,7 +51,7 @@ font-size: larger;
 
 }
 section div{
-    background-color: var(--QuinternaryColor);
+    /*background-color: var(--QuinternaryColor);*/
 }
 section div div h3 {
     background: var(--QuinternaryColor);
