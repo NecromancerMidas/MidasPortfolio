@@ -23,7 +23,7 @@ return <div className={styles.Container}>
         <div><h3>1.Introduction</h3></div>
         <div className={styles.ContentContainer}>
             <div className={styles.DummyTerminalContainer}>
-                 <SideNumbers/>
+                 <SideNumbers number={30}/>
                 </div>
                 <div className={styles.InnerContentContainer}>
 <h1>{t("title")}</h1>
@@ -31,7 +31,9 @@ return <div className={styles.Container}>
     {/* <img src={Code}></img><img src={Code}></img> */}
     </div>
 
-<p>{t("mainContent")}</p>
+<p>{t("mainContentIntro")}</p>
+<p>{t("mainContentMiddle")}</p>
+<p>{t("mainContentEnd")}</p>
 </div>
 </div>
 </div>

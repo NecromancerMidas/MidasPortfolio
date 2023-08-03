@@ -1,7 +1,9 @@
 .Container{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-  height:50vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  /* height: 50vh; */
+  /* max-height: 70vh; */
+  background-color: var(--PrimaryColor);
     }

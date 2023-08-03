@@ -3,7 +3,8 @@
     align-items: center;
     width: 100%;
     flex-direction: column;
-    height:50vh;
+    /* height: 50vh; */
+    /* max-height: 70vh; */
     background-color: var(--PrimaryColor);
 }
 
@@ -21,13 +22,14 @@ margin-top: 3vh;
 .Container p {
 
     font-size: larger;
-    margin-top: 6vh;
+    margin-top: 2vh;
     width: 60%;
     text-align: center;
 
 }
 .ContentContainer{
     height: 100%;
+    position:relative;
     width:100%;
     display: flex;
     flex-direction: row-reverse;
@@ -122,20 +124,24 @@ animation: glow linear 4.5s infinite;
 .DummyTerminalContainer{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    justify-content: flex-start !important;
+    right: 0;
+    border-left: black 1px solid;
     height: 100%;
     width: 35.5px !important;
     flex-grow: 0;
     flex-shrink: 0;
-    box-shadow: -4px 0px 15px 2px var(--PrimaryColor);
-    overflow:hidden;
-    
+    box-shadow: -2px 0px 4px 0px black;
+    overflow: hidden;
 }
 .DummyTerminalContainer p {
     margin:0;
-    margin-left: 2px;
+    margin-left: 14px;
     color: var(--CodeColor);
     text-align: right;
     justify-content: right;
+    
 }
 .DummyTerminalContainer p::before{
     content:"";

@@ -11,9 +11,10 @@
     justify-content: space-around;
 } */
 section {
-position: relative;
-    height: 80vh;
-    /* padding-top: 6vh; */
+    position: relative;
+    /* height: 80vh; */
+    padding-top: 11vh;
+    padding-bottom: 20vh;
     margin-bottom: 7vh;
     width: 90%;
     /* background-color: #101015; */
@@ -24,6 +25,7 @@ position: relative;
 }
 section:nth-child(even){
     align-self: end;
+    margin-right: 1.52px;
 
 }
 /* section::before, section::after {
