@@ -54,7 +54,7 @@ const style = isSticky ? styles.navSticky : styles.navNormal;
   return (
     <>
      {isSticky && <div style={{height: '6vh'}} />}
-    <nav ref={navbarRef} className={style}><NavButton text={t('home')} to='Home'/><NavButton text={t('introduction')} to='Introduction' Sticky={isSticky}></NavButton><NavButton text={t('aboutMe')} to="AboutMe"></NavButton><NavButton text={t('portfolio')} to="Portfolio"/></nav>
+    <nav ref={navbarRef} className={style}><NavButton text={t('home')} to='Home'/><NavButton text={t('introduction')} to='Introduction' Sticky={isSticky}></NavButton><NavButton text={t('aboutMe')} to="AboutMe"></NavButton><NavButton text={t('skills')} to="Skills"/></nav>
     </>
   );
 }

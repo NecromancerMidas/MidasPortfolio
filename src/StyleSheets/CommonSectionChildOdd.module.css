@@ -119,12 +119,14 @@ animation: glow linear 4.5s infinite;
 
 .InnerContentContainer{
     display: flex;
-   /* margin-top: 60px;
-    height: 100%;*/
+   /* margin-top: 60px; */
+   /* height: 100%; */
     width: 100%;
     flex-direction: column;
     align-items: center;
     background: none;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 .DummyTerminalContainer{
     display: flex;

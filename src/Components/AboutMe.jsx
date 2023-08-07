@@ -8,6 +8,7 @@ import { useContext } from 'react';
 
 export const AboutMe = () => {
     const {t} = useTranslation('AboutMe');
+    const {t:tHead} = useTranslation('Nav');
     const {language, changeLanguage} = useContext(LanguageContext);
     const handleLanguageChange = (lang) => {
         changeLanguage(lang);
@@ -15,7 +16,7 @@ export const AboutMe = () => {
     }
 return <div className={commonStyles.Container}>
     
-    <div><h3>2.About Me</h3></div>
+    <div><h3>2.{tHead('aboutMe')}</h3></div>
         <div className={commonStyles.ContentContainer}>
             <div className={commonStyles.DummyTerminalContainer}>
                 <SideNumbers number={50}/>

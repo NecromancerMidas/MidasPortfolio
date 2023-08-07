@@ -9,6 +9,7 @@ export const Introduction = ( ) => {
 
 
     const {t} = useTranslation('Introduction');
+    const {t:tHead} = useTranslation('Nav');
 const {language, changeLanguage} = useContext(LanguageContext);
 const handleLanguageChange = (lang) => {
     changeLanguage(lang);
@@ -20,7 +21,7 @@ for(let i = 1; i <= 20; i++) {
 }
 return <div className={styles.Container}>
 
-        <div><h3>1.Introduction</h3></div>
+        <div><h3>1.{tHead('introduction')}</h3></div>
         <div className={styles.ContentContainer}>
             <div className={styles.DummyTerminalContainer}>
                  <SideNumbers number={30}/>

@@ -11,6 +11,7 @@ const resources = {
         introduction: 'Introduction',
         aboutMe: 'About Me',
         portfolio: 'Portfolio',
+        skills:'Skills',
       },
       Introduction:{
         title:'Welcome to my portfolio',
@@ -35,7 +36,7 @@ const resources = {
  `,
  mainContentHistory:`Finally, I would like to mention my keen interest in history.
  Is it a result of my love for strategy games, or perhaps the other way around? Regardless, history has taught me many things, notably the unstable and fickle nature of life and society. 
- I've watched narratives of great empires crumbling to dust, changing the status quo and forcing people and nations to adapt.
+ I've watched narratives of great empires crumbling to dust, changing the status quo and forcing nations and their people to adapt.
  `,
  mainContentMarcus:`This historical understanding has led me down the path of stoicism, inspired by great figures like Marcus Aurelius, a personal idol of mine.
   I strive to implement stoicism in my own life, focusing on honesty, acceptance of circumstance and honing my energies on the things I can change, instead of lamenting the things I cannot.
@@ -61,6 +62,7 @@ const resources = {
         introduction: 'Introduksjon',
         aboutMe: 'Om meg',
         portfolio: 'Portfølje',
+        skills:'Ferdigheter',
       },
       Introduction:{
         title:'Welcome to my portfolio',
@@ -76,7 +78,8 @@ const resources = {
         home: 'Home',
         introduction: 'Introductie',
         aboutMe: 'Over mij',
-        portfolio:'Portefeuille'
+        portfolio:'Portefeuille',
+        skills:'Vaardigheden',
       },
       Introduction:{
         title:'Welcome to my portfolio',
