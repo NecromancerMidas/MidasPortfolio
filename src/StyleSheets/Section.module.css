@@ -75,7 +75,7 @@ section:nth-child(even) div div h3 {
 section div div:first-child {
     display:flex;
     align-self: start;
-    background: var(--PrimaryColor);
+    /*background: var(--PrimaryColor);*/
     width: 100%;   
 }
 section:nth-child(even) div div{

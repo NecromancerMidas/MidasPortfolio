@@ -135,6 +135,7 @@ animation: glow linear 4.5s infinite;
     height: 100%;
     position:absolute;
     top:0;
+    background: var(--PrimaryColor);
     width: 35.5px !important;
     flex-grow: 0;
     flex-shrink: 0;

@@ -1,0 +1,15 @@
+.LanguagesDiv {
+
+display:flex;
+flex-direction:column ;
+
+}
+.Languages {
+display:flex;
+flex-direction: column;
+}
+.LanguagesContainer {
+display:flex;
+flex-direction: row;
+
+}

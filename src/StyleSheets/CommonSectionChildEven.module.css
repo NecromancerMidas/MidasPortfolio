@@ -133,6 +133,7 @@ animation: glow linear 4.5s infinite;
     height: 100%;
     width: 35.5px !important;
     flex-grow: 0;
+    background: var(--PrimaryColor);
     flex-shrink: 0;
     box-shadow: -2px 0px 4px 0px black;
     overflow: hidden;

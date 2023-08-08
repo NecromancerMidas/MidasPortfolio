@@ -1,8 +1,9 @@
 .ListContainer{
-
-
+display:flex;
+flex-direction: column;
+width:70%;
 }
-.ListContainer div {
+.ListContainer:first-of-type(div) {
     display:flex;
     flex-direction: row;
 }

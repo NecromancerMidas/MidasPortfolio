@@ -1,17 +1,18 @@
 import commonStyles from '../StyleSheets/CommonSectionChildOdd.module.css';
+import { Languages } from './SkillSubComponents/Languages';
+import { FrameWorkLibraries } from './SkillSubComponents/FrameworkLibraries';
 import { SideNumbers } from './SideNumbers';
 import { LanguageContext } from './LanguageContext';
+import { Databases } from './SkillSubComponents/Databases';
 import { useTranslation } from 'react-i18next';
 import { useContext } from 'react';
 import { SkillContainer } from './SkillContainer';
-import reactsvg from '../assets/svg/react.svg';
-import javascript from '../assets/img/javascript.png';
-import CSharp from '../assets/img/C_Sharp.png';
-import HTML from '../assets/svg/HTML5.svg';
-import css from '../assets/svg/CSS.svg';
-import net from '../assets/svg/net.svg'
-import ef8 from '../assets/img/ef8.png';
+
+
+
+
 import  styles  from '../StyleSheets/Skills.module.css';
+import { Tools } from './SkillSubComponents/Tools';
 
 
 
@@ -39,21 +40,14 @@ export const Skills = () => {
     {/* <img src={Code}></img><img src={Code}></img> */}
     </div>
 <div className={styles.ListContainer}>
-<h4>{t('Languages')}:</h4>
-<SkillContainer text={t('HTML')} imgSrc={HTML}/>
-<SkillContainer text={t('CSS')} imgSrc={css}/>
-<SkillContainer text={t('Javascript')} imgSrc={javascript}/>
-<SkillContainer text={t('CSharp')} imgSrc={CSharp}/>
-<h4>{t('FrameWorksLibraries')}:</h4>
-<SkillContainer text={t('React')} imgSrc={reactsvg}/>
-<SkillContainer text={t('Net6')} imgSrc={net}/>
-<SkillContainer text={t('EntityCoreFramework')} imgSrc={ef8}/>
-<h4>{t('Databases')}</h4>
-<SkillContainer text={t('MySQL')}/>
-<h4>{t('Tools')}</h4>
-<SkillContainer text={t('Git')}/>
-<SkillContainer text={t('VisualStudio')}/>
-<SkillContainer text={t('Unity')}/>
+<div>
+<Languages/>
+<FrameWorkLibraries/>
+</div>
+<div><Databases/>
+<Tools/>
+</div>
+
 <h4>{t('OtherSkills')}</h4>
 <SkillContainer text={t('Entry1')}/>
 <SkillContainer text={t('Entry2')}/>
