@@ -5,7 +5,11 @@ height:50px;
 
 }
 .SkillContainer {
-
     display:flex;
     flex-direction: row;
+}
+.SkillContainer p {
+
+text-align:initial !important;
+width:auto !important;
 }

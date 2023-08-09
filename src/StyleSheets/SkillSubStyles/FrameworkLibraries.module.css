@@ -1,0 +1,16 @@
+.FrameworkDiv {
+
+    display:flex;
+    flex-direction:column ;
+    width:initial !important;
+    
+    }
+    .Frameworks {
+    display:flex;
+    flex-direction: column;
+    }
+    .FrameworksContainer {
+    display:flex;
+    flex-direction: row;
+    
+    }

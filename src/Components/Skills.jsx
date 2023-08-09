@@ -40,14 +40,15 @@ export const Skills = () => {
     {/* <img src={Code}></img><img src={Code}></img> */}
     </div>
 <div className={styles.ListContainer}>
-<div>
+<div className={styles.DivContainerRow}>
 <Languages/>
 <FrameWorkLibraries/>
 </div>
-<div><Databases/>
+<div className={styles.DivContainerRow}>
+<Databases/>
 <Tools/>
 </div>
-
+</div>
 <h4>{t('OtherSkills')}</h4>
 <SkillContainer text={t('Entry1')}/>
 <SkillContainer text={t('Entry2')}/>
@@ -69,7 +70,7 @@ export const Skills = () => {
 <SkillContainer text={('Entry3')}/>
 <SkillContainer text={('Entry4')}/>
 <SkillContainer text={('Entry5')}/>
-</div>
+
 </div>
 </div>
 </div>
